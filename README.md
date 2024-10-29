@@ -1,4 +1,4 @@
-# Current Employment Analysis
+# Current Employment Statistics Analysis
 
 ## Table of Contents
 
@@ -9,14 +9,14 @@
 ### Project Overview
 ---
 
-This data analysis project aims to provide insights into the sales performance of an e-commerce company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+This data analysis project aims to provide insights into the employment performance of an e-commerce company over the past decade. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
 
-![bar plot](https://github.com/Irene-arch/Documenting_Example/assets/56026296/5ebedeb8-65e4-4f09-a2a5-0699119f5ff7)
+![bar plot](https://github.com/??___)
 
 
 ### Data Sources
 
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
+Current Employment Statistics Data: The primary dataset used for this analysis is the "ces_2014-2024_monthly_2024419.csv" file, containing detailed information about current emplyment made by California Employment Development Department.
 
 ### Tools
 
@@ -71,19 +71,8 @@ I had to remove all zero values from budget and revenue columns because they wou
 ### References
 
 1. SQL for Businesses by werty.
-2. [Stack Overflow](https://stack.com)
+2. [DATA.GOV](https://catalog.data.gov/dataset/current-employment-statistics-ces-5540b)
 
 😄
-
 💻
 
-|Heading1|Heading2|
-|--------|--------|
-|Content|Content2|
-|Python|SQL|
-
-`column_1`
-
-**bold**
-
-*italic*
