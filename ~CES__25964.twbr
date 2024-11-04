@@ -1,0 +1,3144 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ces_data_cleaned' inline='true' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ces_data_cleaned' name='textscan.08byyk51823zjz13lsw280aa52od'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/engel/OneDrive/Documents/Portfolio/Portfolio Projects/Current Employment Statistic/ces_data_cleaned.csv' dataRefreshTime='' directory='C:/Users/engel/OneDrive/Documents/Portfolio/Portfolio Projects/Current Employment Statistic' filename='C:/Users/engel/AppData/Local/Temp/TableauTemp/12sr34r1q5lm8q0zsio461gd3kr8/ces_data_cleaned.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.08byyk51823zjz13lsw280aa52od' name='ces_data_cleaned.csv' table='[ces_data_cleaned#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:J10001:no:A1:J10001:2' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='_id _id' ordinal='0' />
+            <column datatype='string' name='Area Type Area Type' ordinal='1' />
+            <column datatype='string' name='Area Name Area Name' ordinal='2' />
+            <column datatype='integer' name='Year Year' ordinal='3' />
+            <column datatype='integer' name='Month Month' ordinal='4' />
+            <column datatype='string' name='Date Date' ordinal='5' />
+            <column datatype='integer' name='Series Code Series Code' ordinal='6' />
+            <column datatype='string' name='Industry Title Industry Title' ordinal='7' />
+            <column datatype='string' name='Seasonally Adjusted (Y/N) Seasonally Adjusted (Y/N)' ordinal='8' />
+            <column datatype='integer' name='Current Employment Current Employment' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.08byyk51823zjz13lsw280aa52od' name='ces_data_cleaned.csv' table='[ces_data_cleaned#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:J10001:no:A1:J10001:2' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='_id _id' ordinal='0' />
+            <column datatype='string' name='Area Type Area Type' ordinal='1' />
+            <column datatype='string' name='Area Name Area Name' ordinal='2' />
+            <column datatype='integer' name='Year Year' ordinal='3' />
+            <column datatype='integer' name='Month Month' ordinal='4' />
+            <column datatype='string' name='Date Date' ordinal='5' />
+            <column datatype='integer' name='Series Code Series Code' ordinal='6' />
+            <column datatype='string' name='Industry Title Industry Title' ordinal='7' />
+            <column datatype='string' name='Seasonally Adjusted (Y/N) Seasonally Adjusted (Y/N)' ordinal='8' />
+            <column datatype='integer' name='Current Employment Current Employment' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J10001:no:A1:J10001:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>59994</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_id]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Area Type]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>Area Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Area Name]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>Area Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Series Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Series Code]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>Series Code</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Industry Title]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>Industry Title</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Seasonally Adjusted (Y/N)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Seasonally Adjusted (Y/N)]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>Seasonally Adjusted (Y/N)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current Employment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Current Employment]</local-name>
+            <parent-name>[ces_data_cleaned.csv]</parent-name>
+            <remote-alias>Current Employment</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+        <semantic-values semantic-role='[County].[Name]'>
+          <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+          <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+          <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+          <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+          <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+          <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+          <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+          <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+          <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+          <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+          <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+          <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+          <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+          <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+          <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+          <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+          <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+          <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+          <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+          <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+          <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+          <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+          <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+          <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+          <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+          <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+          <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+          <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+          <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Total Employment' datatype='integer' name='[Calculation_2602517643193638913]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Current Employment])' />
+      </column>
+      <column caption='Average Employment' datatype='real' name='[Calculation_2602517643193810946]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Current Employment])' />
+      </column>
+      <column caption='Employment Growth (yr/yr)' datatype='real' name='[Calculation_2602517643193966595]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(SUM([Current Employment]) - LOOKUP(SUM([Current Employment]), -1)) / LOOKUP(SUM([Current Employment]), -1)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='State' datatype='string' name='[Calculation_2602517643197722629]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='tableau' formula='&quot;CA&quot;' />
+      </column>
+      <column caption='Years' datatype='integer' name='[Calculation_2729181382787444736]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INT([Year])' />
+      </column>
+      <column caption='Partial Year' datatype='string' name='[Calculation_2729181382788386817]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF INT([Year]) = 2024 THEN &quot;Partial Year&quot; ELSE &quot;Full Year&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+      <column datatype='date' datatype-customized='true' name='[Month]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Series Code]' role='dimension' type='ordinal' />
+      <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ces_data_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]' role='measure' type='quantitative' />
+      <column caption='_Id' datatype='integer' name='[_id]' role='dimension' type='ordinal' />
+      <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/engel/AppData/Local/Temp/TableauTemp/#TableauTemp_0un9lhv11rrhv31dilss30csa015.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/29/2024 07:50:26 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>511987</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Area Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area Type</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Area Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area Name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>88</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>127</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Series Code</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Series Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Series Code</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>835</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Industry Title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Industry Title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Industry Title</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>835</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Seasonally Adjusted (Y/N)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Seasonally Adjusted (Y/N)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Seasonally Adjusted (Y/N)</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Current Employment</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Current Employment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Current Employment</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ces_data_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10883</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Area Type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;County&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Metropolitan Area&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Industry Title:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;          Private Colleges, Universities, and Professional Schools&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Arts, Entertainment, and Recreation&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Computer Systems Design and Related Services&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Employment Services&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Government&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Local Government excluding Educational Services&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nursing Care Facilities&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Private Service Providing - Residual&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Shoe Retailers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Transportation and Warehousing&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;            Agencies, Broker and Other Insurance Related Activities&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Administrative and Support Services&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Chemical Manufacturing&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Depository Credit Intermediation including Monetary Authorities - Central Bank&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Furniture and Home Furnishings Retailers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Insurance Carriers and Related Activities&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Motion Picture and Sound Recording&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Petroleum and Coal Products Manufacturing&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Restaurants and Other Eating Places&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Total Farm&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;          Furniture, Home Furnishings, Electronics, and Appliance Retailers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ambulatory Health Care Services&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Clothing, Clothing Accessories, Shoe, and Jewelry Retailers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Electronic Computer Manufacturing&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;General Freight Trucking&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lessors of Real Estate&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Non-durable Goods&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Printing and Related Support Activities&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Semiconductor and Related Devices Manufa&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Total, All Industries&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;        Transportation, Warehousing, and Utilities&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bare Printed Circuit Board Manufacturing&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;County Government&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Federal Government excluding Department of Defense&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Health Care and Social Assistance&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Management, Scientific and Technical Con&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Offices of Real Estate Agents and Brokers&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Radio and Television Broadcasting Stations&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Special Food Services&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Utilities&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;        Professional, Scientific, and Technical Services&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Automobile Dealers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Construction&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Fabricated Metal Product Mfg&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Grocery &amp; Related Products Merchant whol&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Machinery Manufacturing&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Offices of Dentists&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Professional and Business Services&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Social Assistance&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Transportation Equipment Manufacturing&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;            Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Animal Slaughtering and Processing&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Clothing, Clothing Accessories, Shoe, and Jewelry Retailers - Residual&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Electronic Instrument Manufacturing&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;General Merchandise Retailers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Limited-Service Restaurants and Other Eating Places&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nondepository Credit Intermediation&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Private Education and Health Services&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Service-Providing&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Trade, Transportation, and Utilities&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Activities Related to Real Estate&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Building Material and Garden Equipment and Supplies Dealers&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Department of Defense&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Food Services and Drinking Places&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Information&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Miscellaneous Durable Goods Manufacturing&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Performing Arts, Spectator Sports&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Residential Building Construction&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Support Activities for Transportation&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;          Amusement, Gambling, and Recreation Industries&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Advertising and Related Services&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Child Day Care Services&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Durable Goods&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Furniture and Related Product Manufacturing&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Investigation and Security Services&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Motor Vehicle and Motor Vehicle Parts Me&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Pharmaceutical and Medicine Manufacturing&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Retail Trade&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Total Nonfarm&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Accounting, Tax Preparation and Bookkeep&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Building Equipment Contractors&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Dairy Product Manufacturing&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Food and Beverage Retailers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Independent Artists, Writers, and Perfor&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mining and Logging&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Other Specialty Trade Contractors&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Religious, Grantmaking, Civic, Professional, and &quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;State Government Educational Services&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Wholesale Trade&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;     Mining, Logging and Construction&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Apparel Manufacturing&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Computer and Electronic Product Manufacturing&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Electronics and Appliance Retailers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;General Merchandise Stores - Residual&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Local Government&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nonresidential Building Construction&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Private Educational Services&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Services to Buildings and Dwellings&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Trade, Transportation, and Utilities - Residual&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;            Warehouse Clubs, Supercenters, and Other General Merchandise Retailers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Beverage and Tobacco Product Manufacturing&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Couriers and Messengers&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Finance and Insurance&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Heavy and Civil Engineering Construction&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Manufacturing&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Other Amusement and Recreation&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Real Estate&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Specialty Trade Contractors&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Warehousing and Storage&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Accommodation&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Book Retailers and News Dealers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Credit Intermediation and Related Activities including Monetary Authorities - Central Bank&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Financial Activities&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Hospitals&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Merchant Wholesalers, Durable Goods&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Other Motor Vehicle Dealers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Real Estate and Rental and Leasing&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers - Residual&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Waste Management and Remediation Services&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Activities Related to Credit Intermediation&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Building Finishing Contractors&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Data Processing, Hosting &amp; Related Services&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Food Manufacturing&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Individual and Family Services&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Misc Nondurable Goods Merchant Wholesalers&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Paper Manufacturing&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Repair and Maintenance&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;State Government Excluding Education&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Administrative and Support and Waste and Remediation Services&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Business Support Services&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Department Stores&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Full-Service Restaurants&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Insurance Carriers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Miscellaneous Durable Goods Merchant Who&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Personal and Laundry Services&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;ResidualTextile Mills&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Telecommunications&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;            Sporting Goods, Hobby, and Musical Instrument Retailers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Automotive Parts, Accessories and Tire S&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Construction - Residual&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Federal Government&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Grocery Stores&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Machinery, Equipment and Supplies Mercha&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Offices of Other Health Practitioners&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Professional and Commercial Equipment Me&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Software Publishers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Travel Arrangement and Reservation Servi&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;            Newspaper, Periodical, Book, and Directory Publishers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Apparel, Piece Gds &amp; Notions Merch whole&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Computer and Peripheral Equipment Manufacturing&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Elementary and Secondary Schools&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Goods Producing&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Local Government Educational Services&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nursing &amp; Residential Care Facilities&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Private Service Providing&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Ship and Boat Building&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Transit and Ground Passenger Transportation&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;          Architectural, Engineering, and Related Services&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Aerospace Product and Parts Manufacturing&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;City Government&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Electrical and Electronic Goods Merchant&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Gambling Industries&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Legal Services&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Motor Vehicle and Parts Dealers&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Plastics and Rubber Products Manufacturing&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Scientific Research and Development Services&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Total Private&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Accommodation and Food Services&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Broadcasting and Content Providers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cut and Sew Apparel Manufacturing&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Financial Investments and Related Activities including Financial Vehicles&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Household and Institutional Furniture and Kitchen Cabinet Manufacturing&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Merchant Wholesalers, Nondurable Goods&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Other Services&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Real Estate and Rental and Leasing - Residual&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;State Government&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Wholesale Electronic Markets and Agents&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;          Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bakeries and Tortilla Manufacturing&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Construction of Buildings&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Federal Government - Residual&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Health and Personal Care Retailers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Management of Companies and Enterprises&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Offices of Physicians&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Publishing Industries&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Special Districts plus Tribes&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Truck Transportation&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;            Foundation, Structure, and Building Exterior Contractors&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Air Transportation&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Clothing and Clothing Accessories Retailers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Electrical Equipment and Appliance Manuf&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gasoline Stations and Fuel Dealers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Leisure and Hospitality&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Museums, Historical Sites, and Similar I&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Primary Metal Manufacturing&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Semiconductor and Electronic Component M&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Total State and Local Government&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Area Name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Colusa County&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Marin County&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sacramento County&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Santa Rosa MSA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Alameda County&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kern County&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Oakland-Hayward-Berkeley MD&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tuolumne County&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bakersfield MSA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Los Angeles County&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Plumas County&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Santa Clara County&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Yolo County&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;El Dorado County&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Merced MSA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;San Bernardino County&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Solano County&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Contra Costa County&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mariposa County&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Shasta County&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Butte County&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Los Angeles-Long Beach-Glendale MD&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Redding MSA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Santa Cruz County&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Yuba City MSA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Imperial County&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Napa MSA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Trinity County&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Alpine County&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kings County&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Orange County&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;San Mateo County&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Vallejo-Fairfield MSA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hanford-Corcoran MSA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Monterey County&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;San Francisco-Redwood City-South San Francisco MD&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sutter County&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Calaveras County&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Madera County&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Riverside County&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Santa Cruz-Watsonville MSA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Yuba County&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Fresno County&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Modesto MSA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;San Diego County&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sonoma County&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Fresno MSA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Modoc County&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;San Diego-Carlsbad MSA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Stanislaus County&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Humboldt County&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Napa County&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;San Joaquin County&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Tehama County&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Inyo County&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Nevada County&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;San Luis Obispo County&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tulare County&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Del Norte County&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mendocino County&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Salinas MSA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sierra County&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Chico MSA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Madera MSA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Riverside-San Bernardino-Ontario MSA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Santa Maria-Santa Barbara MSA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Amador County&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Lake County&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;San Rafael MD&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ventura County&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Glenn County&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mono County&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;San Francisco County&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Stockton-Lodi MSA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;El Centro MSA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Merced County&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;San Benito County&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Siskiyou County&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Anaheim-Santa Ana-Irvine MD&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Lassen County&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Placer County&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Santa Barbara County&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Visalia-Porterville MSA&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+        <semantic-value key='[County].[Name]' value='%null%' />
+        <semantic-value key='[State].[Name]' value='&quot;California&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='_id' />
+        <field-sort-custom-order field='Area Type' />
+        <field-sort-custom-order field='Area Name' />
+        <field-sort-custom-order field='Calculation_2602517643197722629' />
+        <field-sort-custom-order field='Year' />
+        <field-sort-custom-order field='Calculation_2729181382787444736' />
+        <field-sort-custom-order field='Calculation_2729181382788386817' />
+        <field-sort-custom-order field='Month' />
+        <field-sort-custom-order field='Date' />
+        <field-sort-custom-order field='Series Code' />
+        <field-sort-custom-order field='Industry Title' />
+        <field-sort-custom-order field='Seasonally Adjusted (Y/N)' />
+        <field-sort-custom-order field='Calculation_2602517643193966595' />
+        <field-sort-custom-order field='Current Employment' />
+        <field-sort-custom-order field='Calculation_2602517643193810946' />
+        <field-sort-custom-order field='Calculation_2602517643193638913' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ces_data_cleaned.csv' id='ces_data_cleaned.csv_8EDAFDAA38AA48129B8ED42F3910AC1F'>
+            <properties context=''>
+              <relation connection='textscan.08byyk51823zjz13lsw280aa52od' name='ces_data_cleaned.csv' table='[ces_data_cleaned#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:J10001:no:A1:J10001:2' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='_id _id' ordinal='0' />
+                  <column datatype='string' name='Area Type Area Type' ordinal='1' />
+                  <column datatype='string' name='Area Name Area Name' ordinal='2' />
+                  <column datatype='integer' name='Year Year' ordinal='3' />
+                  <column datatype='integer' name='Month Month' ordinal='4' />
+                  <column datatype='string' name='Date Date' ordinal='5' />
+                  <column datatype='integer' name='Series Code Series Code' ordinal='6' />
+                  <column datatype='string' name='Industry Title Industry Title' ordinal='7' />
+                  <column datatype='string' name='Seasonally Adjusted (Y/N) Seasonally Adjusted (Y/N)' ordinal='8' />
+                  <column datatype='integer' name='Current Employment Current Employment' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+      <datasources>
+        <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+        <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+          <semantic-values semantic-role='[County].[Name]'>
+            <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+            <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+            <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+            <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+            <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+            <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+            <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+            <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+            <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+            <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+            <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+            <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+            <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+            <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+            <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+            <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+            <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+            <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+            <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+            <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+            <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+            <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+            <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+            <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+            <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+            <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+            <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+            <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+            <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+          </semantic-values>
+        </column>
+        <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+        <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+        <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]'>
+        <groupfilter function='level-members' level='[mn:Date:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[my:Date:ok]'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[my:Date:ok]' member='201401' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201402' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201403' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201404' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201405' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201406' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201407' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201408' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201409' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201410' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201411' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201412' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201501' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201502' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201503' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201504' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201505' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201506' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201507' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201508' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201509' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201510' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201511' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201512' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201601' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201602' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201603' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201604' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201605' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201606' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201607' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201608' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201609' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201610' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201611' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201612' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201701' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201702' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201703' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201704' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201705' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201706' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201707' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201708' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201709' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201710' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201711' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201712' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201801' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201802' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201803' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201804' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201805' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201806' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201807' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201808' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201809' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201810' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201811' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201812' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201901' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201902' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201903' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201904' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201905' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201906' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201907' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201908' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201909' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201910' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201911' />
+          <groupfilter function='member' level='[my:Date:ok]' member='201912' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202001' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202002' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202003' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202004' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202005' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202006' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202007' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202008' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202009' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202010' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202011' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202012' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202101' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202102' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202103' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202104' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202105' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202106' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202107' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202108' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202109' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202110' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202111' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202112' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202201' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202202' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202203' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202204' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202205' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202206' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202207' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202208' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202209' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202210' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202211' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202212' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202301' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202302' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202303' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202304' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202305' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202306' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202307' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202308' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202309' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202310' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202311' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202312' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202401' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202402' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202403' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202404' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202405' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202406' />
+          <groupfilter function='member' level='[my:Date:ok]' member='202407' />
+        </groupfilter>
+      </filter>
+      <filter class='categorical' column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]'>
+        <groupfilter function='level-members' level='[none:Area Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:Area Type:nk]' member='&quot;County&quot;' />
+          <groupfilter function='member' level='[none:Area Type:nk]' member='&quot;Metropolitan Area&quot;' />
+        </groupfilter>
+      </filter>
+      <filter class='categorical' column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]'>
+        <groupfilter function='empty-level' member='[none:Industry Title:nk]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]'>
+        <groupfilter function='level-members' level='[yr:Date:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Calendar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+            <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+                <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+                <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+                <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+                <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+                <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+                <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+                <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+                <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+                <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+                <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+                <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+                <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+                <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+                <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+                <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+                <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+                <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+                <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+                <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+                <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+                <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+                <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+                <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+                <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+                <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+                <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='integer' name='[Current Employment]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+            <column-instance column='[Current Employment]' derivation='Avg' name='[avg:Current Employment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='Week' name='[wk:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[avg:Current Employment:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[my:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]' value='27' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[wk:Date:ok]' value='false' />
+            <format attr='display' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]' value='false' />
+            <format attr='display' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]' value='true' />
+            <format attr='text-format' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[wd:Date:ok]' value='ieee' />
+            <format attr='text-align' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]' value='center' />
+            <format attr='vertical-align' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]' value='center' />
+            <format attr='text-format' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]' value='iLLL' />
+            <format attr='text-align' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]' value='center' />
+            <format attr='vertical-align' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]' value='center' />
+            <format attr='text-format' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]' value='iyyyy' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[avg:Current Employment:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d6dee6</color>
+                <color>#beccdb</color>
+                <color>#a6bbd0</color>
+                <color>#90abc5</color>
+                <color>#7c9cbb</color>
+                <color>#698db0</color>
+                <color>#577fa5</color>
+                <color>#47719a</color>
+                <color>#39648f</color>
+                <color>#2c5985</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]' value='Select Year from Dropdown'>
+              <formatted-text>
+                <run fontcolor='#2644a7'>Select Year from Dropdown</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' value='Select Industry Title'>
+              <formatted-text>
+                <run>Select Industry Title</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]' value='Select County'>
+              <formatted-text>
+                <run fontcolor='#2644a7'>Select County</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]' value='Select Metropolitan or Non-Metroploitan Area'>
+              <formatted-text>
+                <run fontcolor='#2644a7'>Select Metropolitan or Non-Metroploitan Area</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[avg:Current Employment:qk]' />
+              <text column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]</rows>
+        <cols>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{6732FF69-DA2E-4D67-9024-9E990734F29C}' />
+    </worksheet>
+    <worksheet name='Empl Season'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+            <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+                <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+                <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+                <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+                <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+                <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+                <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+                <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+                <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+                <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+                <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+                <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+                <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+                <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+                <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+                <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+                <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+                <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+                <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+                <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+                <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+                <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+                <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+                <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+                <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+                <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+                <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='integer' name='[Current Employment]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Seasonally Adjusted (Y/N)]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Seasonally Adjusted (Y/N)]' derivation='None' name='[none:Seasonally Adjusted (Y/N):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Current Employment]' derivation='Sum' name='[sum:Current Employment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[my:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='1' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Seasonally Adjusted (Y/N):nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk] + [federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk])</rows>
+        <cols>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{7D46031F-81F2-487B-B078-D777A744E21E}' />
+    </worksheet>
+    <worksheet name='Employment by Yr'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+            <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+                <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+                <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+                <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+                <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+                <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+                <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+                <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+                <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+                <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+                <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+                <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+                <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+                <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+                <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+                <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+                <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+                <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+                <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+                <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+                <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+                <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+                <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+                <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+                <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+                <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+                <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='integer' name='[Current Employment]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Current Employment]' derivation='Sum' name='[sum:Current Employment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[my:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk]' scope='rows' value='' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]' value='iLLL' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk]</rows>
+        <cols>([federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok] / [federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok])</cols>
+      </table>
+      <simple-id uuid='{EEDF5415-BE1A-44A9-A19B-5440E86C6D60}' />
+    </worksheet>
+    <worksheet name='Employment by areas'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+            <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+                <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+                <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+                <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+                <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+                <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+                <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+                <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+                <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+                <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+                <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+                <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+                <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+                <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+                <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+                <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+                <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+                <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+                <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+                <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+                <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+                <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+                <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+                <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+                <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+                <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+                <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='integer' name='[Current Employment]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Current Employment]' derivation='Sum' name='[sum:Current Employment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[my:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk]</rows>
+        <cols>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{AD7EE5C6-34D0-4C1E-81D0-1ABDA5FF781A}' />
+    </worksheet>
+    <worksheet name='Industries over yrs'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+            <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+                <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+                <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+                <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+                <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+                <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+                <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+                <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+                <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+                <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+                <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+                <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+                <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+                <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+                <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+                <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+                <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+                <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+                <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+                <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+                <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+                <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+                <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+                <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+                <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+                <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+                <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='integer' name='[Current Employment]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Current Employment]' derivation='Sum' name='[sum:Current Employment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[my:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk]</rows>
+        <cols>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{0E566B3D-C21A-4DFC-9DD7-FBFCF01648BE}' />
+    </worksheet>
+    <worksheet name='KPIs'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+            <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+                <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+                <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+                <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+                <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+                <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+                <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+                <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+                <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+                <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+                <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+                <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+                <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+                <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+                <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+                <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+                <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+                <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+                <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+                <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+                <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+                <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+                <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+                <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+                <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+                <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+                <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column caption='Total Employment' datatype='integer' name='[Calculation_2602517643193638913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Current Employment])' />
+            </column>
+            <column caption='Average Employment' datatype='real' name='[Calculation_2602517643193810946]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Current Employment])' />
+            </column>
+            <column caption='Employment Growth (yr/yr)' datatype='real' name='[Calculation_2602517643193966595]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Current Employment]) - LOOKUP(SUM([Current Employment]), -1)) / LOOKUP(SUM([Current Employment]), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Current Employment]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2602517643193638913]' derivation='User' name='[usr:Calculation_2602517643193638913:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2602517643193810946]' derivation='User' name='[usr:Calculation_2602517643193810946:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2602517643193966595]' derivation='User' name='[usr:Calculation_2602517643193966595:qk:5]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='CellInPane' />
+            </column-instance>
+            <column-instance column='[Calculation_2602517643193966595]' derivation='User' name='[usr:Calculation_2602517643193966595:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hc38mn1dwcc3i13ga4f416p58hp].[usr:Calculation_2602517643193638913:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hc38mn1dwcc3i13ga4f416p58hp].[usr:Calculation_2602517643193810946:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hc38mn1dwcc3i13ga4f416p58hp].[usr:Calculation_2602517643193966595:qk:5]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0hc38mn1dwcc3i13ga4f416p58hp].[usr:Calculation_2602517643193638913:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0hc38mn1dwcc3i13ga4f416p58hp].[usr:Calculation_2602517643193810946:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0hc38mn1dwcc3i13ga4f416p58hp].[usr:Calculation_2602517643193966595:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[:Measure Names]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[my:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[:Measure Names]' value='14' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[Multiple Values]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='22'>&lt;</run>
+                <run fontsize='22'>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[Multiple Values]</run>
+                <run fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{6D53D8EE-3734-4969-BA5A-79ACBEED0F7B}' />
+    </worksheet>
+    <worksheet name='Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+            <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+                <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+                <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+                <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+                <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+                <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+                <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+                <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+                <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+                <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+                <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+                <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+                <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+                <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+                <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+                <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+                <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+                <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+                <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+                <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+                <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+                <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+                <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+                <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+                <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+                <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+                <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[my:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[Longitude (generated)]' field-type='quantitative' max='-12377410.69919689' min='-14970392.621792549' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[Latitude (generated)]' field-type='quantitative' max='5016219.0132803014' min='3819318.8670405517' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='light' />
+            <format attr='wrap' value='false' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]' />
+              <size column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='has-stroke' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[Latitude (generated)]</rows>
+        <cols>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{4A97E3CA-A38C-49CB-A2F2-AE707DFBD1C8}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+            <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+                <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+                <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+                <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+                <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+                <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+                <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+                <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+                <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+                <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+                <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+                <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+                <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+                <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+                <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+                <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+                <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+                <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+                <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+                <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+                <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+                <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+                <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+                <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+                <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+                <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+                <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+                <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column caption='Employment Growth (yr/yr)' datatype='real' name='[Calculation_2602517643193966595]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Current Employment]) - LOOKUP(SUM([Current Employment]), -1)) / LOOKUP(SUM([Current Employment]), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Current Employment]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Current Employment]' derivation='Sum' name='[sum:Current Employment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2602517643193966595]' derivation='User' name='[usr:Calculation_2602517643193966595:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' direction='ASC' using='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[sum:Current Employment:qk]' />
+          <slices>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[my:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[mn:Date:ok]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]</column>
+            <column>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]</rows>
+        <cols>[federated.0hc38mn1dwcc3i13ga4f416p58hp].[usr:Calculation_2602517643193966595:qk:2]</cols>
+      </table>
+      <simple-id uuid='{EF989A4F-184F-4943-8777-C9938D811C96}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='600' maxwidth='1200' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97334' id='14' param='horz' type-v2='layout-flow' w='98666' x='667' y='1333'>
+            <zone h='97334' id='12' type-v2='layout-basic' w='85333' x='667' y='1333' />
+            <zone fixed-size='160' h='97334' id='13' is-fixed='true' param='vert' type-v2='layout-flow' w='13333' x='86000' y='1333'>
+              <zone h='5166' id='15' name='Industries over yrs' pane-specification-id='0' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' type-v2='color' w='13333' x='86000' y='1333'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='100000' id='3' param='horz' type-v2='layout-flow' w='100000' x='0' y='0'>
+          <zone h='100000' id='6' param='vert' type-v2='layout-flow' w='68750' x='0' y='0'>
+            <zone h='10500' id='4' type-v2='text' w='68750' x='0' y='0'>
+              <formatted-text>
+                <run bold='true' fontcolor='#2644a7' fontsize='24'>California Employment Dashboard</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='129' h='22833' id='7' is-fixed='true' name='KPIs' show-title='false' w='68750' x='0' y='10500'>
+              <layout-cache fixed-size-w='1' type-h='fixed' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='9833' id='8' param='horz' type-v2='layout-flow' w='68750' x='0' y='33333'>
+              <zone h='9833' id='9' name='Employment by Yr' w='31667' x='0' y='33333'>
+                <layout-cache has-max-size-h='true' maxheight='59' minheight='59' non-cell-size-w='380' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9833' id='10' name='Industries over yrs' w='34500' x='31667' y='33333'>
+                <layout-cache has-max-size-h='true' maxheight='51' minheight='51' non-cell-size-w='414' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone fixed-size='367' h='100000' id='5' is-fixed='true' name='Map' show-title='false' w='31250' x='68750' y='0'>
+            <layout-cache minwidth='200' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='22' param='vert' type-v2='layout-flow' w='98666' x='667' y='1333'>
+                <zone h='10500' id='4' type-v2='text' w='68750' x='0' y='0'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#2644a7' fontsize='24'>California Employment Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='100000' id='5' is-fixed='true' name='Map' show-title='false' w='31250' x='68750' y='0'>
+                  <layout-cache minwidth='200' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='129' h='22833' id='7' is-fixed='true' name='KPIs' show-title='false' w='68750' x='0' y='10500'>
+                  <layout-cache fixed-size-w='1' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='51' h='9833' id='9' is-fixed='true' name='Employment by Yr' w='31667' x='0' y='33333'>
+                  <layout-cache has-max-size-h='true' maxheight='59' minheight='59' non-cell-size-w='380' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='51' h='9833' id='10' is-fixed='true' name='Industries over yrs' w='34500' x='31667' y='33333'>
+                  <layout-cache has-max-size-h='true' maxheight='51' minheight='51' non-cell-size-w='414' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5166' id='15' name='Industries over yrs' pane-specification-id='0' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' type-v2='color' w='13333' x='86000' y='1333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0199D0EB-8872-44B6-9C71-3661141A525C}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style>
+        <style-rule element='dash-subtitle'>
+          <format attr='font-family' value='Tableau Bold' />
+          <format attr='color' value='#2644a7' />
+        </style-rule>
+      </style>
+      <size minheight='768' minwidth='1366' sizing-mode='range' />
+      <datasources>
+        <datasource caption='ces_data_cleaned' name='federated.0hc38mn1dwcc3i13ga4f416p58hp' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0hc38mn1dwcc3i13ga4f416p58hp'>
+        <column datatype='string' name='[Area Name]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+          <semantic-values semantic-role='[County].[Name]'>
+            <semantic-value key='&quot;Anaheim-Santa Ana-Irvine MD&quot;' value='&quot;Orange&quot;' />
+            <semantic-value key='&quot;Bakersfield MSA&quot;' value='&quot;Kern&quot;' />
+            <semantic-value key='&quot;Chico MSA&quot;' value='&quot;Butte&quot;' />
+            <semantic-value key='&quot;El Centro MSA&quot;' value='&quot;Imperial&quot;' />
+            <semantic-value key='&quot;Fresno MSA&quot;' value='&quot;Fresno&quot;' />
+            <semantic-value key='&quot;Hanford-Corcoran MSA&quot;' value='&quot;Kings&quot;' />
+            <semantic-value key='&quot;Los Angeles-Long Beach-Glendale MD&quot;' value='&quot;Los Angeles&quot;' />
+            <semantic-value key='&quot;Madera MSA&quot;' value='&quot;Madera&quot;' />
+            <semantic-value key='&quot;Merced MSA&quot;' value='&quot;Merced&quot;' />
+            <semantic-value key='&quot;Modesto MSA&quot;' value='&quot;Stanislaus&quot;' />
+            <semantic-value key='&quot;Napa MSA&quot;' value='&quot;Stanislaus&quot;' />
+            <semantic-value key='&quot;Oakland-Hayward-Berkeley MD&quot;' value='&quot;Alameda&quot;' />
+            <semantic-value key='&quot;Oxnard-Thousand Oaks-Ventura MSA&quot;' value='&quot;Ventura&quot;' />
+            <semantic-value key='&quot;Redding MSA&quot;' value='&quot;Shasta&quot;' />
+            <semantic-value key='&quot;Riverside-San Bernardino-Ontario MSA&quot;' value='&quot;Riverside&quot;' />
+            <semantic-value key='&quot;Sacramento--Roseville--Arden-Arcade MSA&quot;' value='&quot;Sacramento&quot;' />
+            <semantic-value key='&quot;Salinas MSA&quot;' value='&quot;Monterey&quot;' />
+            <semantic-value key='&quot;San Diego-Carlsbad MSA&quot;' value='&quot;San Diego&quot;' />
+            <semantic-value key='&quot;San Francisco-Redwood City-South San Francisco MD&quot;' value='&quot;San Francisco&quot;' />
+            <semantic-value key='&quot;San Jose-Sunnyvale-Santa Clara MSA&quot;' value='&quot;Santa Clara&quot;' />
+            <semantic-value key='&quot;San Luis Obispo-Paso Robles-Arroyo Grande MSA&quot;' value='&quot;San Luis Obispo&quot;' />
+            <semantic-value key='&quot;San Rafael MD&quot;' value='&quot;Marin&quot;' />
+            <semantic-value key='&quot;Santa Cruz-Watsonville MSA&quot;' value='&quot;Santa Cruz&quot;' />
+            <semantic-value key='&quot;Santa Maria-Santa Barbara MSA&quot;' value='&quot;Santa Barbara&quot;' />
+            <semantic-value key='&quot;Santa Rosa MSA&quot;' value='&quot;Sonoma&quot;' />
+            <semantic-value key='&quot;Stockton-Lodi MSA&quot;' value='&quot;San Joaquin&quot;' />
+            <semantic-value key='&quot;Vallejo-Fairfield MSA&quot;' value='&quot;Solano&quot;' />
+            <semantic-value key='&quot;Visalia-Porterville MSA&quot;' value='&quot;Tulare&quot;' />
+            <semantic-value key='&quot;Yuba City MSA&quot;' value='&quot;Yuba&quot;' />
+          </semantic-values>
+        </column>
+        <column datatype='string' name='[Area Type]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+        <column datatype='string' name='[Industry Title]' role='dimension' type='nominal' />
+        <column-instance column='[Area Name]' derivation='None' name='[none:Area Name:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Area Type]' derivation='None' name='[none:Area Type:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Industry Title]' derivation='None' name='[none:Industry Title:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98142' id='17' param='horz' type-v2='layout-flow' w='17622' x='483' y='929'>
+            <zone h='98142' id='5' param='vert' type-v2='layout-flow' w='17622' x='483' y='929'>
+              <zone forceUpdate='true' h='5226' id='7' type-v2='text' w='17622' x='483' y='929'>
+                <formatted-text>
+                  <run fontalignment='1' fontcolor='#2644a7' fontname='Tableau Bold' fontsize='16'>FILTERS</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='2' h='1161' id='8' is-fixed='true' type-v2='empty' w='17622' x='483' y='6155'>
+                <zone-style>
+                  <format attr='border-color' value='#2644a7' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7085' id='18' mode='checkdropdown' name='Calendar' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]' type-v2='filter' w='17622' x='483' y='7316'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='1045' id='15' name='Calendar' show-title='false' w='17622' x='483' y='14401'>
+                <layout-cache fixed-size-h='1' fixed-size-w='1' type-h='fixed' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7085' id='19' mode='checkdropdown' name='Calendar' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' type-v2='filter' w='17622' x='483' y='15446'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7085' id='20' mode='dropdown' name='Calendar' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]' type-v2='filter' w='17622' x='483' y='22531'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='14866' id='21' name='Calendar' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]' type-v2='filter' w='17622' x='483' y='29616'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='98142' id='22' param='vert' type-v2='layout-flow' w='81412' x='18105' y='929'>
+            <zone h='5226' id='23' type-v2='text' w='81412' x='18105' y='929'>
+              <formatted-text>
+                <run bold='true' fontcolor='#2644a7' fontname='Tableau Bold' fontsize='16'>CALIFORNIA STATE, EMPLOYMENT DASHBOARD</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='2' h='1161' id='24' is-fixed='true' type-v2='empty' w='81412' x='18105' y='6155'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+                <format attr='background-color' value='#2644a7' />
+              </zone-style>
+            </zone>
+            <zone h='6736' id='25' param='horz' type-v2='layout-flow' w='81412' x='18105' y='7316'>
+              <zone fixed-size='708' h='6736' id='26' is-fixed='true' name='Employment by Yr' w='43211' x='18105' y='7316'>
+                <layout-cache has-max-size-h='true' maxheight='58' minheight='58' minwidth='139' type-h='scalable' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6736' id='27' name='Map' w='36270' x='61316' y='7316'>
+                <layout-cache has-max-size-h='true' has-max-size-w='true' maxheight='50' maxwidth='601' minheight='50' minwidth='601' type-h='scalable' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='30' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone forceUpdate='true' h='5618' id='7' type-v2='text' w='17622' x='483' y='999'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#2644a7' fontname='Tableau Bold' fontsize='16'>FILTERS</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5618' id='23' type-v2='text' w='81412' x='18105' y='999'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#2644a7' fontname='Tableau Bold' fontsize='16'>CALIFORNIA STATE, EMPLOYMENT DASHBOARD</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='48' h='7241' id='26' is-fixed='true' name='Employment by Yr' w='43211' x='18105' y='7866'>
+                  <layout-cache has-max-size-h='true' maxheight='58' minheight='58' minwidth='139' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='48' h='7241' id='27' is-fixed='true' name='Map' w='37236' x='61316' y='7866'>
+                  <layout-cache has-max-size-h='true' has-max-size-w='true' maxheight='50' maxwidth='617' minheight='50' minwidth='617' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7616' id='18' mode='checkdropdown' name='Calendar' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]' type-v2='filter' w='17622' x='483' y='7866'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7616' id='19' mode='checkdropdown' name='Calendar' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' type-v2='filter' w='17622' x='483' y='16606'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7616' id='20' mode='dropdown' name='Calendar' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]' type-v2='filter' w='17622' x='483' y='24222'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='15980' id='21' mode='checkdropdown' name='Calendar' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]' type-v2='filter' w='17622' x='483' y='31838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='1124' id='15' is-fixed='true' name='Calendar' show-title='false' w='17622' x='483' y='15482'>
+                  <layout-cache fixed-size-h='1' fixed-size-w='1' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{135CC689-046D-4F5B-A333-108891EA9A3C}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='KPIs'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4EFC8ADC-09D6-44E5-B3D5-16712E837B4F}' />
+    </window>
+    <window class='worksheet' name='Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BD06882D-A4C7-4298-B407-15C738B19502}' />
+    </window>
+    <window class='worksheet' name='Employment by Yr'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{59313405-3FBB-4620-AC49-C0DF05429DD4}' />
+    </window>
+    <window class='worksheet' name='Industries over yrs'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checkdropdown' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{464C24D7-0F04-4EB2-8EDE-5E59663DDA64}' />
+    </window>
+    <window class='worksheet' name='Employment by areas'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C48D5E54-FA27-4279-8FCF-95D251A8C0C9}' />
+    </window>
+    <window class='worksheet' name='Empl Season'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Seasonally Adjusted (Y/N):nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{249E0262-91AA-4E39-B3B3-E4FE5CF85A5A}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{48A21419-1F81-4555-BED0-E3066F6256F3}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Employment by Yr'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Industries over yrs'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPIs' />
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{152548D1-3F1C-4563-87EB-210FB9C6AC29}' />
+    </window>
+    <window class='worksheet' name='Calendar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='124'>
+            <card mode='checkdropdown' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[yr:Date:ok]' type='filter' />
+            <card mode='dropdown' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Name:nk]' type='filter' />
+            <card param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Area Type:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.0hc38mn1dwcc3i13ga4f416p58hp].[none:Industry Title:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AFFC4BAA-C878-4052-8147-D5714BC5B502}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Calendar' />
+        <viewpoint name='Employment by Yr'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B4B58997-3AEC-4584-81CA-51ACADABE05F}' />
+    </window>
+  </windows>
+</workbook>
