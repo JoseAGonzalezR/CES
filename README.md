@@ -5,6 +5,14 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Recommendations](#recommendations)
+- [Tools](#tools)
+- [Data Cleaning/Preparation](#data-cleaningpreparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis-eda)
+- [Data Analysis](#data-analysis)
+- [Key Findings and Recommendations](#key-findings)
+- [Limitations and References](#limitations)
+- [References](#references)
+- [Conclusion](#conclusion)
 
 ## Project Overview
 ---
@@ -22,7 +30,6 @@ Our visualizations include bar plots, heatmaps, and line charts to effectively i
 ## Tools
 
 - Excel - Data Cleaning
-  - [Download here](https://microsoft.com)
 - MySQL Server - Data Storage and Quering
 - Tableau - Data Visualization and Dashboard Creation
 
@@ -40,7 +47,6 @@ During EDA, we explored the data to address key questions, such as:
 - Regional Patterns: What are the employment trends across different area types (e.g., metropolitan vs. non-metropolitan)?
 - Seasonal Employment Patterns: How does seasonally adjusted employment compare to non-adjusted figures over time?
 - Industry Growth: Which industries have experienced the highest growth or decline?
-
 
 ## Data Analysis
 
