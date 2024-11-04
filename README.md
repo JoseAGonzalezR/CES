@@ -80,13 +80,13 @@ Based on these findings the following recommendations can help support sustained
 
 This analysis is based on available data up to May 2024, which may limit the insights on recent trends and emerging issues. Additional data and future analyses could provide a more comprehensive understanding of the factors influencing employment in California.
 
+## Conclusion
+The analysis provides a clear understanding of how casual riders and annual members differ in their usage of Cyclistic's bike-share service. By targeting specific user behaviors and preferences, Cyclistic can effectively convert more casual riders into loyal annual members, ensureing sustained growth and profitability.
+
 ## References
 
 - California Employment Development Department: Primary dataset source.
 - U.S. Bureau of Labor Statistics: Comparative industry growth metrics.
-
-## Conclusion
-The analysis provides a clear understanding of how casual riders and annual members differ in their usage of Cyclistic's bike-share service. By targeting specific user behaviors and preferences, Cyclistic can effectively convert more casual riders into loyal annual members, ensureing sustained growth and profitability.
 
 ## Final Thoughts
 
