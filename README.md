@@ -9,6 +9,7 @@
 - [Data Cleaning/Preparation](#data-cleaningpreparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis-eda)
 - [Data Analysis](#data-analysis)
+- [Vizualizations](#visualizations)
 - [Key Findings and Recommendations](#key-findings)
 - [Limitations and References](#limitations)
 - [References](#references)
@@ -18,9 +19,7 @@
 
 This data analysis project aims to provide insights into employment trends across various industries in California from 2014 to 2024. By analyzing employment data, we seek to uncover trends, identify regional patterns, assess the impact of seasonality, and highlight industries experiencing significant growth or decline. Our findings are intended to inform workforce development initiatives and policy recommendations.
 
-## Visualizations
-
-Our visualizations include bar plots, heatmaps, and line charts to effectively illustrate employment trends, grwth rates, and seasonal patterns across California.
+#### ![Employment Growth (Yr/Yr)](https://github.com/JoseAGonzalezR/CES/blob/main/Employment%20Growth.png)
 
 ## Data Sources
 
@@ -64,6 +63,9 @@ Key findings from the analysis include:
 3. Seasonality Impact: Seasonally adjusted employment data reveal that certain industries experience recurring fluctuations, likely tied to specific times of the year.
 4. Top-Performing Regions: Metropolitan areas consistently report higher employment rates, though certain rural areas show rapid growth in specific industries.
 
+## Conclusion
+The analysis provides a clear understanding of how casual riders and annual members differ in their usage of Cyclistic's bike-share service. By targeting specific user behaviors and preferences, Cyclistic can effectively convert more casual riders into loyal annual members, ensureing sustained growth and profitability.
+
 ## Recommendations
 
 Based on these findings the following recommendations can help support sustained employment growth and stability in California:
@@ -79,8 +81,11 @@ Based on these findings the following recommendations can help support sustained
 
 This analysis is based on available data up to May 2024, which may limit the insights on recent trends and emerging issues. Additional data and future analyses could provide a more comprehensive understanding of the factors influencing employment in California.
 
-## Conclusion
-The analysis provides a clear understanding of how casual riders and annual members differ in their usage of Cyclistic's bike-share service. By targeting specific user behaviors and preferences, Cyclistic can effectively convert more casual riders into loyal annual members, ensureing sustained growth and profitability.
+## Visualizations
+
+Our visualizations include bar plots, heatmaps, and line charts to effectively illustrate employment trends, grwth rates, and seasonal patterns across California.
+
+### [Click to see Dashboard](https://public.tableau.com/app/profile/jose.gonzalez.ramirez/viz/Current-Employment_CA/Dashboard1?publish=yes)
 
 ## References
 
