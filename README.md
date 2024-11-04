@@ -15,7 +15,6 @@
 - [Conclusion](#conclusion)
 
 ## Project Overview
----
 
 This data analysis project aims to provide insights into employment trends across various industries in California from 2014 to 2024. By analyzing employment data, we seek to uncover trends, identify regional patterns, assess the impact of seasonality, and highlight industries experiencing significant growth or decline. Our findings are intended to inform workforce development initiatives and policy recommendations.
 
