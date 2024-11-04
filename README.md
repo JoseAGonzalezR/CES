@@ -9,69 +9,75 @@
 ### Project Overview
 ---
 
-This data analysis project aims to provide insights into the employment performance of an e-commerce company over the past decade. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+This data analysis project aims to provide insights into employment trends across various industries in California from 2014 to 2024. By analyzing employment data, we seek to uncover trends, identify regional patterns, assess the impact of seasonality, and highlight industries experiencing significant growth or decline. Our findings are intended to inform workforce development initiatives and policy recommendations.
 
 ![bar plot](https://github.com/??___)
 
+### Visualizations
+
+Our visualizations include bar plots, heatmaps, and line charts to effectively illustrate employment trends, grwth rates, and seasonal patterns across California.
 
 ### Data Sources
 
-Current Employment Statistics Data: The primary dataset used for this analysis is the "ces_2014-2024_monthly_2024419.csv" file, containing detailed information about current emplyment made by California Employment Development Department.
+-	Current Employment Statistics Data: The primary dataset used in this analysis is the "ces_2014-2024_monthly_2024419.csv," which contains monthly employment data provided by the California Employment Development Department. This dataset includes industry-specific employment figures, seasonally adjusted metrics, and region-specific data for comprehensive insights.
 
 ### Tools
 
 - Excel - Data Cleaning
   - [Download here](https://microsoft.com)
-- SQL Server - Data Analysis
-- PowerBI - Creating reports
-
+- MySQL Server - Data Storage and Quering
+- Tableau - Data Visualization and Dashboard Creation
 
 ### Data Cleaning/Preparation
 
-In the initial data preparation phase, we performed the following tasks:
-1. Data loading and inspection.
-2. Handling missing values.
-3. Data cleaning and formatting.
+In the initial data preparation phase, we performed several steps to ensure accuracy and consistency:
+1. Data loading and inspection: loaded data into MySQL and Tableau for seamless analysis.
+2. Data Cleaning: Addressed missing values, filtered out not relevant rows, and standardized date formats
+3. Column Creation: Added columns for California State location, and relevant categories for enhanced filtering.
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis (EDA)
 
-EDA involved exploring the sales data to answer key questions, such as:
+During EDA, we explored the data to address key questions, such as:
+- Employment Trends Over Time: How has employment changed across industries over the years?
+- Regional Patterns: What are the employment trends across different area types (e.g., metropolitan vs. non-metropolitan)?
+- Seasonal Employment Patterns: How does seasonally adjusted employment compare to non-adjusted figures over time?
+- Industry Growth: Which industries have experienced the highest growth or decline?
 
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
 
 ### Data Analysis
 
-Include some interesting code/features worked with
-
+In the analysis phase, we utilized SQL queries and Python with Pandas for data manipulation and to derive insights. Here’s an example SQL query used:
 ```sql
-SELECT * FROM table1
-WHERE cond = 2;
+SELECT Industry_Title, Year, AVG(Current_Employment) as Avg_Employment
+FROM ces_data
+WHERE State = 'California'
+GROUP BY Industry_Title, Year
+ORDER BY Avg_Employment DESC;
 ```
-
 ### Results/Findings
 
-The analysis results are summarized as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-2. Product Category A is the best-performing category in terms of sales and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+Key findings from the analysis include:
+1. Employment Growth: Several industries, particularly those in tech and healthcare, have shown consistent employment growth, while others faced declines.
+3. Seasonality Impact: Seasonally adjusted employment data reveal that certain industries experience recurring fluctuations, likely tied to specific times of the year.
+4. Top-Performing Regions: Metropolitan areas consistently report higher employment rates, though certain rural areas show rapid growth in specific industries.
 
 ### Recommendations
 
-Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions during peak sales seasons to maximize revenue.
-- Focus on expanding and promoting products in Category A.
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
+Based on the analysis, we recommend:
+- Targeted Workforce Initiatives: Focus on high-growth industries to align workforce training and development programs.
+- Regional Support: Support non-metropolitan areas showing potential for industry-specific growth.
+-	Seasonal Adjustments in Policy: Adjust employment policies to account for seasonal fluctuations, especially in agriculture-related industries.
 
 ### Limitations
 
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
+-	Data Gaps: Employment data is not available for all months in 2024, potentially impacting our ability to observe full-year trends.
+-	Excluded Categories: Broad categories like "Total Nonfarm" and "Total Private" were excluded to maintain focus on specific industries.
 
 ### References
 
-1. SQL for Businesses by werty.
-2. [DATA.GOV](https://catalog.data.gov/dataset/current-employment-statistics-ces-5540b)
+- California Employment Development Department: Primary dataset source.
+- U.S. Bureau of Labor Statistics: Comparative industry growth metrics.
+
 
 😄
 💻
