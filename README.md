@@ -29,18 +29,19 @@ This data analysis project aims to provide insights into employment trends acros
 
 - Excel - Data Cleaning
 - MySQL Server - Data Storage and Quering
+- Python - Pandas
 - Tableau - Data Visualization and Dashboard Creation
 
 ## Data Cleaning/Preparation
 
-In the initial data preparation phase, we performed several steps to ensure accuracy and consistency:
+In the initial data preparation phase, I performed several steps to ensure accuracy and consistency:
 1. Data loading and inspection: loaded data into MySQL and Tableau for seamless analysis.
 2. Data Cleaning: Addressed missing values, filtered out not relevant rows, and standardized date formats
 3. Column Creation: Added columns for California State location, and relevant categories for enhanced filtering.
 
 ## Exploratory Data Analysis (EDA)
 
-During EDA, we explored the data to address key questions, such as:
+During EDA, I explored the data to address key questions, such as:
 - Employment Trends Over Time: How has employment changed across industries over the years?
 - Regional Patterns: What are the employment trends across different area types (e.g., metropolitan vs. non-metropolitan)?
 - Seasonal Employment Patterns: How does seasonally adjusted employment compare to non-adjusted figures over time?
@@ -48,7 +49,7 @@ During EDA, we explored the data to address key questions, such as:
 
 ## Data Analysis
 
-In the analysis phase, we utilized SQL queries and Python with Pandas for data manipulation and to derive insights. Here’s an example SQL query used:
+In the analysis phase, I utilized SQL queries and Python with Pandas for data manipulation and to derive insights. Here’s an example SQL query used:
 ```sql
 SELECT Industry_Title, Year, AVG(Current_Employment) as Avg_Employment
 FROM ces_data
@@ -64,7 +65,9 @@ Key findings from the analysis include:
 4. Top-Performing Regions: Metropolitan areas consistently report higher employment rates, though certain rural areas show rapid growth in specific industries.
 
 ## Conclusion
-The analysis provides a clear understanding of how casual riders and annual members differ in their usage of Cyclistic's bike-share service. By targeting specific user behaviors and preferences, Cyclistic can effectively convert more casual riders into loyal annual members, ensureing sustained growth and profitability.
+This analysis of California’s employment trends from 2014 to 2024 provides valuable insights into the dynamics of different industries, geographic regions, and seasonal patterns within the state. By examining historical data, there were identified key drivers and challenges affecting employment, highlighting the impacts of economic cycles, industry-specific developments, and regional variations.
+
+The data reveals that California's employment landscape has generally trended upward over the past decade, though recent declines in 2024 may reflect emerging challenges, potentially driven by broader economic factors or industry-specific downturns. This analysis also shows that employment growth varied significantly across industries, with sectors like technology, healthcare, and construction seeing steady gains, while traditional sectors such as manufacturing faced more volatility.
 
 ## Recommendations
 
@@ -83,7 +86,7 @@ This analysis is based on available data up to May 2024, which may limit the ins
 
 ## Visualizations
 
-Our visualizations include bar plots, heatmaps, and line charts to effectively illustrate employment trends, grwth rates, and seasonal patterns across California.
+The visualizations include bar plots, heatmaps, and line charts to effectively illustrate employment trends, grwth rates, and seasonal patterns across California.
 
 ### [Click to see Dashboard](https://public.tableau.com/app/profile/jose.gonzalez.ramirez/viz/Current-Employment_CA/Dashboard1?publish=yes)
 
